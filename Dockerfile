@@ -16,4 +16,4 @@ RUN npx prisma generate
 RUN npm run build
 
 # final command
-CMD [ "node", "dist/index.js" ]
+CMD ["dist/index.handler" ]
